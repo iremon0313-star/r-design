@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.Desing 依頼フォーム</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="sanitize.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+          <p class="title-form">依頼フォーム</p>
+    </header>
+    <form class="contact-form">
+        <label class="text">お名前</label><br>
+        <input type="text" id="name" required><br>
+
+        <label class="email">メールアドレス</label><br>
+        <input type="email" id="email" required><br>
+
+        <label class="subject">ご依頼内容</label><br>
+        <input type="text" id="subject" placeholder="例：バナー制作のご依頼"><br>
+
+        <label class="message">ご希望・ご相談(自由記載)</label><br>
+        <textarea id="message" placeholder="ご希望のイメージや用途など、ご自由にご記入ください"></textarea><br>
+
+        <button><a href="thx.html">送信する</button></a>
+    </form>
+    
+    
+</body>
+</html>

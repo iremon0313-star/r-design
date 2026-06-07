@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+html{
+    scroll-behavior: smooth;
+}
+label,p{
+    margin: 0;
+}
+body{
+  font-family: "Noto Serif JP", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  color: #537791;
+  margin: 0;
+  padding: 0;
+}
+
+.title-form{
+    background-color: #537791;
+    font-size: 32px;
+    color: #fff;
+    height: 130px;
+    max-width: 1400px;
+    width: 100%;
+    padding-left: 56px;
+}
+.contact-form{
+    background-color: #f7f6e7;
+    padding-left: 104px;
+    height: 1000px;
+}
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 40px;
+    margin-top: 8px; }
+
+#name{
+    width: 200px;
+}
+
+#email{
+    width: 500px;
+}
+#subject{
+    width: 800px;
+    height: 100px;
+}
+#message{
+    width: 800px;
+    height: 250px;
+}
