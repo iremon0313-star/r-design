@@ -1,7 +1,6 @@
-// fadein 要素を取得
+
 const fadeElems = document.querySelectorAll('.fadein');
 
-// 安全にフェードイン処理を実行する関数
 function fadeInCheck() {
     fadeElems.forEach(elem => {
         if (!elem) return; // ← null 回避
@@ -15,14 +14,11 @@ function fadeInCheck() {
     });
 }
 
-// ページ読み込み時
 window.addEventListener('load', fadeInCheck);
 
-// スクロール時
 window.addEventListener('scroll', fadeInCheck);
 
 
-// ▼ ハンバーガーメニュー
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav-first');
 
