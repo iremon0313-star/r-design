@@ -14,4 +14,27 @@ body{
   margin: 0;
   padding: 0;
   background-color:#f3f6e7;
+  display: flex;
+  text-align: center;
+}
+
+.butm{
+    margin-top: 40px;
+    display: inline-block;
+    padding: 14px 40px;
+    background: linear-gradient(to bottom,
+    #91a5b9 0%,
+    #60839b 30%,
+    #537791 50%,
+    #60839b 70%,
+    #91a5b9 100%);
+    color: #fff;
+    border: 1px solid #91a5b9;
+    border-radius:15px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 1);
+    font-family: inherit;
 }
