@@ -479,10 +479,12 @@ footer::before{
     .title-tr {
         font-size: 28px;
     }
-    
-    .img img {
-        margin: 0 auto;
-        display: block;
+
+    .image{
+        padding-top: 96px;
+    }
+    .ichigo{
+        padding-top: 40px;
     }
 
     .ichigo,
