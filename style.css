@@ -392,8 +392,10 @@ footer::before{
     }
      nav {
         width: 100%;
-        display: block;
+        display: block !important;
         position: relative;
+        justify-content: center !important;
+        align-items: center !important;
     }
     .nav-first {
         position: fixed;
@@ -422,9 +424,23 @@ footer::before{
     }
 
     .hamburger span {
+        display: block;
+        width: 100%;
         height: 3px;
         background: #fff;
         border-radius: 2px;
+        transition: 0.3s ease;
+    }
+    .hamburger.active span:nth-child(1) {
+       transform: translateY(10px) rotate(45deg);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
     }
     .nav-first.active {
         display: flex !important;
@@ -461,9 +477,6 @@ footer::before{
     }
 
 
-    .img {
-        padding-top: 32px;
-    }
     .img img {
         margin: 0 auto;
         display: block;
