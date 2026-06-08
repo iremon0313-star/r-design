@@ -48,7 +48,11 @@ img{
     max-height: auto;
     height: auto;
 }
-
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .nav-first {
     display: flex;
     align-items: center;
@@ -472,7 +476,10 @@ footer::before{
         max-width: 90%;
         align-items: center;
     }
-
+    figure {
+        margin: 0 auto;
+        text-align: center;
+    }
     .bg-circle {display: none;
     }
 
