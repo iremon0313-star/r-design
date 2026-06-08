@@ -381,10 +381,8 @@ footer::before{
         line-height: 1.6;
     }
     .container {
-        display: flex;
         padding: 10px 20px;
-        justify-content: space-between;
-        align-items: center;
+        height: 70px;
         position: relative;
     }
     .logo-first {
@@ -394,10 +392,7 @@ footer::before{
      nav {
         width: 100%;
         display: block !important;
-        position: relative;
         z-index: 2000;
-        justify-content: center !important;
-        align-items: center !important;
     }
     .nav-first.active {
         display: flex !important;
@@ -427,7 +422,7 @@ footer::before{
         z-index: 1000;
     }
     .hamburger {
-        top: 50px;
+        top: 50%;
         right: 20px;
         width: 32px;
         height: 24px;
@@ -510,7 +505,8 @@ footer::before{
     .make {
         transform: none !important;
         max-width: 90%;
-        margin: 64px;
+        margin: 40px auto;
+        display: block;
     }
     .bg-circle {display: none;
     }
