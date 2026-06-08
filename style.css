@@ -397,6 +397,13 @@ footer::before{
         justify-content: center !important;
         align-items: center !important;
     }
+    .nav-first.active {
+        display: flex !important;
+    }
+    .nav-first li a {
+        font-size: 24px;
+        color: #fff;
+    }
     .nav-first {
         position: fixed;
         top: 0;
@@ -410,7 +417,7 @@ footer::before{
         align-items: center;
         gap: 32px;
         z-index: 999;
-        animation: fadeIn 0.3s ease;
+        animation:fadein 0.3s ease;
     }
     .hamburger {
         width: 32px;
@@ -442,13 +449,7 @@ footer::before{
     .hamburger.active span:nth-child(3) {
         transform: translateY(-10px) rotate(-45deg);
     }
-    .nav-first.active {
-        display: flex !important;
-    }
-    .nav-first li a {
-        font-size: 24px;
-        color: #fff;
-    }
+    
     @keyframes fadeIn {
         from { opacity: 0; }
         to { opacity: 1; }
