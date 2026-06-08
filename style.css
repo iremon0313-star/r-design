@@ -389,9 +389,9 @@ footer::before{
         max-width: 120px;
         padding-left: 0;
     }
-     nav {
+    nav {
         width: 100%;
-        display: block !important;
+        display: block;
         z-index: 2000;
     }
     .nav-first.active {
@@ -505,8 +505,10 @@ footer::before{
     .make {
         transform: none !important;
         max-width: 90%;
-        margin: 40px auto;
+        margin-top: 40px;
         display: block;
+        text-align: center;
+        align-items: center;
     }
     .bg-circle {display: none;
     }
