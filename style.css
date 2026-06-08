@@ -376,18 +376,17 @@ footer::before{
 
 
 @media screen and (max-width: 768px) {
-    .img{
-        padding-top: 40px;
-    }
     body {
         font-size: 16px;
         line-height: 1.6;
     }
     .container {
+        display: flex;
         padding: 10px 20px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
+        position: relative;
     }
     .logo-first {
         max-width: 120px;
@@ -399,7 +398,7 @@ footer::before{
         position: relative;
         justify-content: center !important;
         align-items: center !important;
-        z-index: 1000;
+        z-index: 2000;
     }
     .nav-first.active {
         display: flex !important;
@@ -421,7 +420,7 @@ footer::before{
         align-items: center;
         gap: 32px;
         animation:fadeIn 0.3s ease;
-        z-index: 500;
+        z-index: 1000;
     }
     .hamburger {
         top: 20px;
@@ -489,10 +488,16 @@ footer::before{
     }
 
     .image{
-        padding-top: 64px;
+        padding-top: 56px;
     }
     .section-about{
         padding-top: 24px;
+    }
+    .img{
+        padding-top: 40px !important;
+    }
+    .ichigo{
+        margin: 40px auto;
     }
     
     .ichigo,
