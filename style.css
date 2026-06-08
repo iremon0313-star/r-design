@@ -501,9 +501,6 @@ footer::before{
         gap: 72px;
         max-width: 90%;
     }
-    figure {
-        margin: 0 auto;
-    }
     .bg-circle {display: none;
     }
 
