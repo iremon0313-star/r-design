@@ -423,7 +423,7 @@ footer::before{
         max-width: 90%;
     }
     .ichigo {
-        padding-top: 40px;
+       align-items: center;
     }
 
     .bg-circle {display: none;
@@ -439,6 +439,7 @@ footer::before{
         height: auto;
         padding: 40px 0;
         text-align: center;
+        align-items: center;
     }
 
     .logo-en {
@@ -448,7 +449,7 @@ footer::before{
 
     .end {
        margin: 20px auto 0;
-        padding: 0;
-        text-align: center;
+       padding: 0;
+       text-align: center;
 }
 }
