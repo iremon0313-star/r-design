@@ -61,6 +61,9 @@ img{
     color: #fff;
     text-decoration: none;
 }
+.hamburger{
+    display: none;
+}
 
 .buttom{
     display: inline-block;
@@ -382,7 +385,12 @@ footer::before{
     }
     .nav-first {
         gap: 20px;
-        padding-right: 0;
+        padding-right:20px 0;
+        display: none;
+        flex-direction: column;
+        background-color: #537791;
+        width: 100%;
+        text-align: center;
     }
     .hamburger {
         width: 32px;
@@ -401,20 +409,9 @@ footer::before{
         border-radius: 2px;
     }
 
-    /* メニューを最初は非表示 */
-    .nav-first {
-        display: none;
-    }
-
     /* 開いたときの表示 */
     .nav-first.active {
         display: flex;
-        flex-direction: column;
-        gap: 20px;
-        background-color: #537791;
-        width: 100%;
-        padding: 20px 0;
-        text-align: center;
     }
 
     .MV {
@@ -426,7 +423,7 @@ footer::before{
         padding-left: 20px;
     }
     .title {
-        font-size: 24px;
+        font-size: 28px;
     }
     .MV-botm {
         font-size: 18px;
@@ -434,10 +431,10 @@ footer::before{
     }
 
     .title-sec {
-        font-size: 32px;
+        font-size: 36px;
     }
     .title-tr {
-        font-size: 24px;
+        font-size: 28px;
     }
 
 
