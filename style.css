@@ -382,6 +382,44 @@ footer::before{
         gap: 20px;
         padding-right: 0;
     }
+        .hamburger {
+        width: 32px;
+        height: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 3px;
+        background: #fff;
+        border-radius: 2px;
+    }
+
+    /* メニューを最初は非表示 */
+    .nav-first {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding: 20px 0;
+        background-color: #537791;
+        width: 100%;
+    }
+
+    /* 開いたときの表示 */
+    .nav-first.active {
+        display: flex;
+    }
+
+    /* ヘッダー全体を縦並びに */
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
 
 
     .MV {
@@ -421,10 +459,7 @@ footer::before{
         transform: none !important;
         margin: 40px auto;
         max-width: 90%;
-    }
-    .ichigo {
-       align-items: center;
-       text-align: center;
+        align-items: center;
     }
 
     .bg-circle {display: none;
