@@ -420,6 +420,7 @@ footer::before{
         text-align: center;
         gap: 32px;
         z-index: 1000;
+        padding-right: 0 !important;
     }
     .hamburger {
         top: 50%;
@@ -487,9 +488,6 @@ footer::before{
         font-size: 28px;
     }
 
-    .image{
-        padding-top: 56px;
-    }
     .section-about{
         padding-top: 24px;
     }
@@ -509,6 +507,7 @@ footer::before{
         display: block;
         text-align: center;
         align-items: center;
+        margin: 40px auto !important;
     }
     .bg-circle {display: none;
     }
