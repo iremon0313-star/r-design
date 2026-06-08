@@ -86,9 +86,10 @@ body{
         font-size: 16px;
         line-height: 1.6;
         padding: 20px;
+        max-width: 100%;
     }
 
-    header .title-form {
+    .title-form {
         font-size: 24px;
         text-align: center;
         padding: 20px 0;

@@ -396,6 +396,7 @@ footer::before{
         position: relative;
         justify-content: center !important;
         align-items: center !important;
+        z-index: 2000;
     }
     .nav-first.active {
         display: flex !important;
@@ -416,18 +417,19 @@ footer::before{
         justify-content: center;
         align-items: center;
         gap: 32px;
-        z-index: 999;
+        z-index:1000;
         animation:fadein 0.3s ease;
     }
     .hamburger {
-        width: 32px;
-        height: 24px;
+        top: 20px;
+        right: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
-        z-index: 1000;
+        z-index: 3000;
         margin-left: auto;
+        position: absolute;
     }
 
     .hamburger span {
@@ -481,6 +483,9 @@ footer::before{
     .img img {
         margin: 0 auto;
         display: block;
+    }
+    .img{
+        padding-top: 40px !important;
     }
 
     .ichigo,
