@@ -405,6 +405,11 @@ footer::before{
     .nav-first li a {
         font-size: 24px;
         color: #fff;
+        display: block;
+        width: 100%;
+    }
+    .nav-first li{
+        width: 100%;
     }
     .nav-first {
         position: fixed;
@@ -417,14 +422,16 @@ footer::before{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         gap: 32px;
         z-index: 1000;
     }
     .hamburger {
-        top: 20px;
+        top: 50px;
         right: 20px;
         width: 32px;
         height: 24px;
+        transform: translateY(-50%);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -491,6 +498,10 @@ footer::before{
     .section-about{
         padding-top: 24px;
     }
+    .img{
+        height: auto;
+        padding-top: 56px;
+    }
     
     .ichigo,
     .macha,
@@ -498,8 +509,8 @@ footer::before{
     .sale,
     .make {
         transform: none !important;
-        gap: 72px;
         max-width: 90%;
+        margin: 64px;
     }
     .bg-circle {display: none;
     }
