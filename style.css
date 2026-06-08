@@ -421,6 +421,8 @@ footer::before{
     .hamburger {
         top: 20px;
         right: 20px;
+        width: 32px;
+        height: 24px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
