@@ -378,12 +378,14 @@ footer::before{
         padding: 10px 20px;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     .logo-first {
         max-width: 120px;
         padding-left: 0;
     }
     .nav-first {
+        display: none !important;
         gap: 20px;
         padding-right:20px 0;
         display: none;
@@ -403,7 +405,6 @@ footer::before{
     }
 
     .hamburger span {
-        display: block;
         height: 3px;
         background: #fff;
         border-radius: 2px;
@@ -411,7 +412,7 @@ footer::before{
 
     /* 開いたときの表示 */
     .nav-first.active {
-        display: flex;
+        display: flex !important;
     }
 
     .MV {
