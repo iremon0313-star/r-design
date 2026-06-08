@@ -421,6 +421,7 @@ footer::before{
         gap: 32px;
         z-index: 1000;
         padding-right: 0 !important;
+        padding-left: 56px;
     }
     .hamburger {
         top: 50%;
@@ -506,7 +507,7 @@ footer::before{
         margin-top: 40px;
         display: block;
         text-align: center;
-        align-items: center;
+        align-items: center !important;
         margin: 40px auto !important;
     }
     .bg-circle {display: none;
