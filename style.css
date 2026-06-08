@@ -485,7 +485,7 @@ footer::before{
         display: block;
     }
     .img{
-        padding-top: 40px !important;
+        padding-top: 40px;
     }
 
     .ichigo,
@@ -494,7 +494,7 @@ footer::before{
     .sale,
     .make {
         transform: none !important;
-        margin: 40px auto;
+        margin: 64px auto;
         max-width: 90%;
         align-items: center;
     }
