@@ -376,6 +376,9 @@ footer::before{
 
 
 @media screen and (max-width: 768px) {
+    .img{
+        padding-top: 40px;
+    }
     body {
         font-size: 16px;
         line-height: 1.6;
@@ -396,6 +399,7 @@ footer::before{
         position: relative;
         justify-content: center !important;
         align-items: center !important;
+        z-index: 1000;
     }
     .nav-first.active {
         display: flex !important;
@@ -417,6 +421,7 @@ footer::before{
         align-items: center;
         gap: 32px;
         animation:fadeIn 0.3s ease;
+        z-index: 500;
     }
     .hamburger {
         top: 20px;
@@ -429,6 +434,7 @@ footer::before{
         cursor: pointer;
         margin-left: auto;
         position: absolute;
+        z-index: 3000;
     }
 
     .hamburger span {
@@ -483,8 +489,10 @@ footer::before{
     }
 
     .image{
-        padding-top: 96px;
-        padding-bottom:40px
+        padding-top: 64px;
+    }
+    .section-about{
+        padding-top: 24px;
     }
     
     .ichigo,
@@ -493,7 +501,7 @@ footer::before{
     .sale,
     .make {
         transform: none !important;
-        margin: 80px auto;
+        margin: 40px auto;
         max-width: 90%;
         align-items: center;
     }
