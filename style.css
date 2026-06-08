@@ -386,7 +386,9 @@ footer::before{
     }
      nav {
         width: 100%;
-        display: block; 
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; 
     }
     .nav-first {
         position: fixed;
@@ -408,6 +410,7 @@ footer::before{
         justify-content: space-between;
         cursor: pointer;
         z-index: 1000;
+        margin-left: auto;
     }
 
     .hamburger span {
@@ -454,6 +457,10 @@ footer::before{
         height: auto;
         padding-top: 60px;
     }
+    .img img {
+        margin: 0 auto;
+        display: block;
+    }
 
     .ichigo,
     .macha,
@@ -464,10 +471,6 @@ footer::before{
         margin: 40px auto;
         max-width: 90%;
         align-items: center;
-    }
-    .ichigo{
-        margin-top: 24px;
-        text-align: center;
     }
 
     .bg-circle {display: none;
