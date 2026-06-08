@@ -13,6 +13,9 @@ body{
   color: #537791;
   margin: 0;
   padding: 0;
+  max-width: 1400px;
+  width: 100%;
+  height: auto;
 }
 
 .title-form{
@@ -23,11 +26,15 @@ body{
     max-width: 1400px;
     width: 100%;
     padding-left: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .contact-form{
     background-color: #f7f6e7;
-    padding-left: 104px;
+    padding-left: 56px;
     height: 1000px;
+    padding-top: 40px;
 }
 .contact-form input,
 .contact-form textarea {
@@ -48,4 +55,28 @@ body{
 #message{
     width: 800px;
     height: 250px;
+}
+.button{
+     margin-top: 40px;
+    display: inline-block;
+    padding: 14px 40px;
+    background: linear-gradient(to bottom,
+    #91a5b9 0%,
+    #60839b 30%,
+    #537791 50%,
+    #60839b 70%,
+    #91a5b9 100%);
+    color: #fff;
+    border: 1px solid #91a5b9;
+    border-radius:15px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 1);
+    font-family: inherit;
+}
+.button:active{
+     transform: translateY(2px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
