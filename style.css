@@ -371,8 +371,6 @@ footer::before{
         font-size: 16px;
         line-height: 1.6;
     }
-
-  
     .container {
         padding: 10px 20px;
     }
@@ -424,6 +422,10 @@ footer::before{
         margin: 40px auto;
         max-width: 90%;
     }
+    .ichigo{
+        align-items: center;
+        display: flex;
+    }
 
     .bg-circle {
         transform: scale(0.5);
@@ -445,6 +447,8 @@ footer::before{
 
     footer {
         height: 350px;
+        display: flex;
+        align-items: center;
     }
     footer::before {
         filter: blur(25px);
