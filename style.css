@@ -393,7 +393,7 @@ footer::before{
         padding-left: 20px;
     }
     .title {
-        font-size: 32px;
+        font-size: 28px;
     }
     .MV-botm {
         font-size: 18px;
@@ -401,7 +401,7 @@ footer::before{
     }
 
     .title-sec {
-        font-size: 40px;
+        font-size: 32px;
     }
     .title-tr {
         font-size: 28px;
@@ -424,6 +424,7 @@ footer::before{
     }
     .ichigo {
        align-items: center;
+       text-align: center;
     }
 
     .bg-circle {display: none;
