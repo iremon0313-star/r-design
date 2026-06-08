@@ -383,7 +383,7 @@ footer::before{
     .container {
         display: flex;
         padding: 10px 20px;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
         position: relative;
     }
@@ -423,8 +423,8 @@ footer::before{
     .hamburger {
         top: 20px;
         right: 20px;
-        width: 20px;
-        height: 20px;
+        width: 32px;
+        height: 24px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -432,6 +432,7 @@ footer::before{
         margin-left: auto;
         position: absolute;
         z-index: 3000;
+        align-items: center;
     }
 
     .hamburger span {
@@ -491,10 +492,6 @@ footer::before{
     .section-about{
         padding-top: 24px;
     }
-    .ichigo{
-        align-items: center !important;
-        padding-top: 40px !important;
-    }
     
     .ichigo,
     .macha,
@@ -502,12 +499,12 @@ footer::before{
     .sale,
     .make {
         transform: none !important;
-        gap: 56px;
+        gap: 64px;
         max-width: 90%;
     }
     figure {
         margin: 0 auto;
-        text-align: center;
+        text-align: center !important;
     }
     .bg-circle {display: none;
     }
