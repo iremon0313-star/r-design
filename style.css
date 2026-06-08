@@ -432,7 +432,6 @@ footer::before{
         margin-left: auto;
         position: absolute;
         z-index: 3000;
-        align-items: center;
     }
 
     .hamburger span {
@@ -499,12 +498,11 @@ footer::before{
     .sale,
     .make {
         transform: none !important;
-        gap: 64px;
+        gap: 72px;
         max-width: 90%;
     }
     figure {
         margin: 0 auto;
-        text-align: center !important;
     }
     .bg-circle {display: none;
     }
