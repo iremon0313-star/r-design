@@ -482,18 +482,16 @@ footer::before{
 
     .image{
         padding-top: 96px;
+        padding-bottom:40px
     }
-    .ichigo{
-        padding-top: 40px;
-    }
-
+    
     .ichigo,
     .macha,
     .travel,
     .sale,
     .make {
         transform: none !important;
-        margin: 64px auto;
+        margin: 80px auto;
         max-width: 90%;
         align-items: center;
     }
