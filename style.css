@@ -490,12 +490,16 @@ footer::before{
 
     .section-about{
         padding-top: 24px;
+        margin-bottom: 40px !important;
     }
     .img{
         height: auto;
-        padding-top: 56px;
+        padding-top: 40px !important;
     }
-    
+    .ichigo{
+        padding-top: 0 !important;
+        margin: 40px auto !important;
+    }
     .ichigo,
     .macha,
     .travel,
