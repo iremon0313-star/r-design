@@ -422,6 +422,12 @@ footer::before{
         margin: 40px auto;
         max-width: 90%;
     }
+    .ichigo {
+        transform: none !important;
+        margin: 0 auto;
+        padding-top: 40px;
+        max-width: 90%;
+    }
 
     .bg-circle {display: none;
     }
@@ -432,16 +438,19 @@ footer::before{
        content: none;
     }
 
-    footer {
-        height: 350px;
-    }
-    footer::before {
-        filter: blur(25px);
-        background-size: 200% 200%;
+   footer {
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
     }
 
     .logo-en {
-        max-width: 120px;
-        padding-top: 20px;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+
+    .end {
+        padding: 0;
+        margin-top: 20px;
     }
 }
