@@ -489,11 +489,11 @@ footer::before{
     }
 
     .section-about{
-        padding-top: 24px;
+        padding-top: 24px !important;
         margin-bottom: 40px !important;
     }
     .image{
-        padding-top: 96px;
+        padding-top: 96px !important;
     }
     .img{
         height: auto;
@@ -503,7 +503,7 @@ footer::before{
         padding-top: 0 !important;
         margin: 40px auto !important;
         transform: none;
-        text-align: center !important;
+        padding-left: 10px !important;
     }
     .ichigo,
     .macha,
