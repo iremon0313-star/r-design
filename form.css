@@ -77,6 +77,6 @@ body{
     font-family: inherit;
 }
 .button:active{
-     transform: translateY(2px);
+    transform: translateY(2px);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
