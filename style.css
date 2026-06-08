@@ -396,6 +396,8 @@ footer::before{
         display: block !important;
         position: relative;
         z-index: 2000;
+        justify-content: center !important;
+        align-items: center !important;
     }
     .nav-first.active {
         display: flex !important;
@@ -502,9 +504,8 @@ footer::before{
     .sale,
     .make {
         transform: none !important;
-        margin: 64px auto;
+        margin: 56px auto;
         max-width: 90%;
-        align-items: center;
     }
     figure {
         margin: 0 auto;

@@ -84,14 +84,30 @@ body{
     body {
         font-size: 16px;
         line-height: 1.6;
-        padding-left: 24px;
+        padding-left: 16px;
         width: 100% !important;
     }
 
     .title-form {
         font-size: 24px;
         text-align: center;
-        padding-left: 56px;
+        padding-left: 16px;
+        width: 100%;
+    }
+    #name{
+        text-align: center;
+        width: 100%;
+    }
+    #email{
+        text-align: center;
+        width: 100%;
+    }
+    #subject{
+        text-align: center;
+        width: 100%;
+    }
+    #placeholder{
+        text-align: center;
         width: 100%;
     }
 
