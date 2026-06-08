@@ -373,6 +373,8 @@ footer::before{
     }
     .container {
         padding: 10px 20px;
+        flex-direction: row;
+        justify-content: space-between;
     }
     .logo-first {
         max-width: 120px;
@@ -382,13 +384,14 @@ footer::before{
         gap: 20px;
         padding-right: 0;
     }
-        .hamburger {
+    .hamburger {
         width: 32px;
         height: 24px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
+        z-index: 1000;
     }
 
     .hamburger span {
@@ -401,26 +404,18 @@ footer::before{
     /* メニューを最初は非表示 */
     .nav-first {
         display: none;
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-        padding: 20px 0;
-        background-color: #537791;
-        width: 100%;
     }
 
     /* 開いたときの表示 */
     .nav-first.active {
         display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #537791;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
     }
-
-    /* ヘッダー全体を縦並びに */
-    .container {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px 20px;
-    }
-
 
     .MV {
         height: 380px;
