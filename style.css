@@ -423,8 +423,8 @@ footer::before{
     .hamburger {
         top: 20px;
         right: 20px;
-        width: 32px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -491,11 +491,9 @@ footer::before{
     .section-about{
         padding-top: 24px;
     }
-    .img{
-        padding-top: 40px !important;
-    }
     .ichigo{
-        margin: 40px auto !important;
+        align-items: center !important;
+        padding-top: 40px !important;
     }
     
     .ichigo,
@@ -504,7 +502,7 @@ footer::before{
     .sale,
     .make {
         transform: none !important;
-        margin: 56px auto;
+        gap: 56px;
         max-width: 90%;
     }
     figure {
