@@ -393,7 +393,7 @@ footer::before{
         padding-left: 20px;
     }
     .title {
-        font-size: 28px;
+        font-size: 20px;
     }
     .MV-botm {
         font-size: 18px;
@@ -401,10 +401,10 @@ footer::before{
     }
 
     .title-sec {
-        font-size: 32px;
+        font-size: 28px;
     }
     .title-tr {
-        font-size: 28px;
+        font-size: 20px;
     }
 
 
