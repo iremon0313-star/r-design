@@ -497,6 +497,9 @@ footer::before{
         padding-top: 96px !important;
         padding-bottom: 96px !important;
     }
+    .start-sub{
+        padding-bottom: 96px;
+    }
 
     .section-about{
         padding-top: 16px !important;
