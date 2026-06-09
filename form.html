@@ -16,21 +16,21 @@
     <header>
           <p class="title-form">依頼フォーム</p>
     </header>
-    <form class="contact-form" action="https://formspree.io/f/xjgdwgye" method="get">
+    <form class="contact-form" action="https://formspree.io/f/xjgdwgye" method="post">
 
         <input type="hidden" name="redirect" value="https://iremon0313-star.github.io/r-design/thx.html">
 
         <label class="text">お名前</label><br>
-        <input type="text" id="name" required><br>
+        <input type="text" id="name" name="name" required><br>
 
         <label class="email">メールアドレス</label><br>
-        <input type="email" id="email" required><br>
+        <input type="email" id="email" name="email" required><br>
 
         <label class="subject">ご依頼内容</label><br>
-        <input type="text" id="subject" placeholder="例：バナー制作のご依頼"><br>
+        <input type="text" id="subject" name="subject" placeholder="例：バナー制作のご依頼"><br>
 
         <label class="message">ご希望・ご相談(自由記載)</label><br>
-        <textarea id="message" placeholder="ご希望のイメージや用途など、ご自由にご記入ください"></textarea><br>
+        <textarea id="message" name="message" placeholder="ご希望のイメージや用途など、ご自由にご記入ください"></textarea><br>
 
         <button type="submit" class="button">送信する</button>
     </form>
