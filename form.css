@@ -130,14 +130,24 @@ body{
     .title-form {
         font-size: 24px;
         height: 80px;
-        padding-left: 24px !important;
+        padding-left: 0;
+    }
+    .form-header {
+        padding: 16px 20px;
     }
     .back-home{
-        padding-right: 24px !important;
-
+        top: 16px;
+        right: 20px;
+        transform: none;
+        padding: 4px 12px;
     }
-    .home-text{
-        padding-top: 8px;
+     .home-icon {
+        font-size: 32px;
+    }
+
+    .home-text {
+        font-size: 12px;
+        padding-top: 4px;
     }
 
     .contact-form {
