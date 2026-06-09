@@ -492,19 +492,16 @@ footer::before{
         font-size: 28px;
         padding-top: 7px !important;
     }
+    .start{
+        height: auto !important;
+        padding-top: 96px !important;
+        padding-bottom: 96px !important;
+    }
 
     .section-about{
         padding-top: 16px !important;
     }
-    .start {
-        height: auto !important;
-        margin-top: 96px !important;
-    }
-    .section-main {
-        padding-top: 96px !important;
-        padding-bottom: 0 !important;
-        margin-bottom: 96px !important; 
-    }
+    
     .image-section{
         padding-top: 96px !important;
     }
@@ -556,4 +553,5 @@ footer::before{
        margin: 20px auto 0;
        padding: 0;
        text-align: center;
+       }
     }
