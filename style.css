@@ -478,7 +478,7 @@ footer::before{
     }
     .section-title{
         display: flex;
-        align-items: center;
+        align-items: center !important;
     }
 
     .title-sec {
@@ -486,6 +486,10 @@ footer::before{
     }
     .title-tr {
         font-size: 28px;
+    }
+
+    .start{
+        padding-bottom: 96px !important;
     }
 
     .section-about{
