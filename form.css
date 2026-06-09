@@ -142,12 +142,12 @@ body{
         padding: 4px 12px;
     }
      .home-icon {
-        font-size: 40px;
+        font-size: 40px !important;
     }
 
     .home-text {
-        font-size: 14px;
-        padding-top: 0;
+        font-size: 14px !important;
+        margin-top: 8px;
     }
 
     .contact-form {
