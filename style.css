@@ -149,6 +149,35 @@ nav {
     height: 700px;
     padding-top: 104px;
 }
+.start-sub{
+    padding-top: 24px;
+}
+.work figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    font-size: 14px;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.work {
+    position: relative;
+    overflow: hidden;
+}
+.work img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+@media screen and (min-width: 769px) {
+    .work:hover figcaption {
+        opacity: 1;
+    }
+}
 .section-main{
     padding-top: 24px;
 }
@@ -161,7 +190,8 @@ nav {
     background-color: #ededed;
     text-align: center;
     padding-top: 104px;
-    height: 1900px;
+    height: 2000px;
+    padding-bottom: 104px;
     position: relative;
     z-index: 0;
     overflow: hidden;
@@ -276,7 +306,10 @@ nav {
 
 .ichigo{
     padding-top: 104px;
-    transform: scale(1.3) translateX(250px);
+    transform: scale(1.3) translateX(180px);
+    width: 100%;
+    max-width: 320px;
+    height: auto;
 }
 .macha{
     max-width: 400px;
@@ -303,7 +336,7 @@ nav {
     width: 100%;
     height: auto;
     margin-left: auto;
-    transform: translateX(-100px)translateY(128px);
+    transform: translateX(-100px)translateY(128px)
 }
 .img-hover {
     transition: 0.4s ease;
@@ -513,11 +546,27 @@ footer::before{
         padding-top: 40px !important;
         padding-bottom: 96px !important;
     }
+    .work figcaption {
+        display: none;
+        padding: 8px 0 0;
+        font-size: 14px;
+        color: #537791;
+        text-align: center;
+        position: static;
+        background: none;
+        opacity: 1;
+    }
+    .work:hover figcaption {
+        opacity: 1;
+    }
+    .work.open figcaption {
+        display: block;
+    }
+
     .ichigo{
         padding-top: 0 !important;
         margin: 40px auto !important;
         transform: none;
-        padding-left: 14.5px !important;
     }
     .ichigo,
     .macha,

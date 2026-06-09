@@ -29,7 +29,7 @@ if (hamburger && nav) {
         nav.classList.toggle('active');
         document.body.classList.toggle('no-scroll');
     });
-    
+
     links.forEach(link => {
     link.addEventListener('click', () => {
         hamburger.classList.remove('active');
@@ -38,3 +38,9 @@ if (hamburger && nav) {
     });
 });
 }
+
+document.querySelectorAll('.work').forEach(item => {
+    item.addEventListener('click', () => {
+        item.classList.toggle('open');
+    });
+});
