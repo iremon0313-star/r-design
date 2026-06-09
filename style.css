@@ -497,11 +497,9 @@ footer::before{
         padding-top: 16px !important;
     }
     .start {
-        padding-top: 80px !important; 
-    }
-
-    .section-main {
-        padding-bottom: 40px !important; 
+        height: auto !important;
+        padding-top: 56px !important;
+        padding-bottom: 96px !important;
     }
     .image-section{
         padding-top: 96px !important;
