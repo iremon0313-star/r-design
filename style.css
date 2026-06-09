@@ -486,14 +486,14 @@ footer::before{
         gap: 4px; 
     }
     .title-sec {
-        font-size: 34px;
+        font-size: 36px;
     }
     .title-tr {
         font-size: 28px;
         padding-top: 0 !important;
     }
     .section-main{
-        padding-bottom: 72px !important;
+        padding-bottom: 56px !important;
     }
     .section-about{
         padding-top: 16px !important;
