@@ -16,9 +16,46 @@ body{
   width: 100%;
   height: auto;
 }
+.form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #537791;
+    padding: 20px 40px;
+    position: relative;
+}
 
+.back-home {
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    text-align: center;
+    padding: 8px 20px;
+    background: #537791;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 32px;
+    transition: 0.3s ease;
+    gap: 6px;
+    display: block;
+}
+.home-icon{
+    font-size: 56px;
+    display: block;
+}
+.home-text{
+    font-size: 16px;
+    display: block;
+}
+.back-home:hover {
+    opacity: 0.8;
+}
 .title-form{
     background-color: #537791;
+    background: none;
     font-size: 32px;
     color: #fff;
     height: 130px;
@@ -28,6 +65,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .contact-form{
     background-color: #f7f6e7;
