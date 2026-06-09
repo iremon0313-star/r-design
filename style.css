@@ -506,10 +506,10 @@ footer::before{
     }
     
     .image-section{
-        padding-top: 96px !important;
+        padding-top: 72px !important;
     }
     .img{
-        height: auto;
+        height: auto !important;
         padding-top: 40px !important;
         padding-bottom: 96px !important;
     }
