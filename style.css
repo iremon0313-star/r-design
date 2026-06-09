@@ -498,8 +498,8 @@ footer::before{
     }
     .start {
         height: auto !important;
-        padding-top: 56px !important;
-        padding-bottom: 96px !important;
+        padding-top: 96px !important;
+        padding-bottom: 104px !important;
     }
     .image-section{
         padding-top: 96px !important;
