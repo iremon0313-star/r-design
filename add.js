@@ -21,10 +21,19 @@ window.addEventListener('scroll', fadeInCheck);
 
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav-first');
+const links = document.querySelectorAll('.nav-first a');
 
 if (hamburger && nav) {
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('active');
         nav.classList.toggle('active');
+        document.body.classList.toggle('no-scroll');
     });
 }
+links.forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        nav.classList.remove('active');
+        document.body.classList.remove('no-scroll');
+    });
+});
