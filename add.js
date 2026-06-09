@@ -29,11 +29,12 @@ if (hamburger && nav) {
         nav.classList.toggle('active');
         document.body.classList.toggle('no-scroll');
     });
-}
-links.forEach(link => {
+    
+    links.forEach(link => {
     link.addEventListener('click', () => {
         hamburger.classList.remove('active');
         nav.classList.remove('active');
         document.body.classList.remove('no-scroll');
     });
 });
+}
