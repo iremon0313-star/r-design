@@ -588,12 +588,12 @@ footer::before{
     }
 
     .section-about{
-        padding-top: 16px !important;
-        padding-bottom: 16px;
+        padding: top 16px !important;
+        padding-bottom: 1.2px;
     }
     
     .image-section{
-        padding-top: 72px !important;
+        padding-top: 120px !important;
     }
     .img{
         height: auto !important;
@@ -626,7 +626,8 @@ footer::before{
         max-width: 80%;
         display: block !important;
         text-align: center !important;
-        margin: 104px auto !important;
+        margin: 120px auto !important;
+        margin-top: 56px !important;
     }
     .bg-circle {display: none;
     }
