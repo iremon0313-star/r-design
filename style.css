@@ -31,7 +31,7 @@ h1,h2,h3,p,figure{
 }
 
 .price-table {
-  width: 80%;
+  width: 100%;
   max-width: 650px;
   margin: 40px auto; 
   border-collapse: collapse;
@@ -456,7 +456,7 @@ footer::before{
 }
 .en-buttom{
     padding-top: 32px;
-    padding-bottom: 112px;
+    padding-bottom: 96px;
 }
 
 
@@ -589,6 +589,7 @@ footer::before{
 
     .section-about{
         padding-top: 16px !important;
+        padding-bottom: 16px;
     }
     
     .image-section{
@@ -616,11 +617,6 @@ footer::before{
         display: block;
     }
 
-    .ichigo{
-        padding-top: 0 !important;
-        margin: 40px auto !important;
-        transform: none;
-    }
     .ichigo,
     .macha,
     .travel,
@@ -628,10 +624,9 @@ footer::before{
     .make {
         transform: none !important;
         max-width: 80%;
-        margin-top: 80px;
         display: block !important;
         text-align: center !important;
-        margin: 40px auto !important;
+        margin: 104px auto !important;
     }
     .bg-circle {display: none;
     }
@@ -642,7 +637,11 @@ footer::before{
        content: none;
     }
 
-   footer {
+    .price-table{
+        width: auto;
+    }
+
+    footer {
         height: auto;
         padding: 40px 0;
         text-align: center;
@@ -653,6 +652,7 @@ footer::before{
         margin: 0 auto;
         padding: 0;
     }
+
 
     .end {
        margin: 20px auto 0;
