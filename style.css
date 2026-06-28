@@ -19,14 +19,15 @@ h1,h2,h3,p,figure{
     background-color: #f7f6e7;
 }
 .price-main{
-    padding-top: 108px;
+    padding-top: 120px;
+    padding-bottom: 40px;
     text-align: center;
 }
 .price-item{
-    transform: translateY(-16px);
+    transform: translateY(-8px);
     text-align: center;
     font-size: 18px;
-    padding-bottom: 108px;
+    padding-bottom: 120px;
 }
 
 .price-table {
@@ -42,19 +43,21 @@ h1,h2,h3,p,figure{
 
 .price-table th {
   background: #7d9db4;
-  padding: 14px;
+  padding: 20px;
   text-align: left;
   font-size: 18px;
   color: #f0efef;
 }
 
 .price-table td {
-  padding: 14px;
+  padding: 24px;
   border-bottom: 1px solid #c4d7e6;
-  font-size: 16px;
+  font-size: 18px;
   color: #537791;
 }
-
+.price-title{
+    font-weight: bold;
+}
 
 .fadein{
     opacity: 0;
@@ -188,11 +191,12 @@ nav {
 .start{
     background-color: #f7f6e7;
     text-align: center;
-    height: 700px;
-    padding-top: 104px;
+    height: 750px;
+    padding-top: 120px;
 }
 .start-sub{
     padding-top: 24px;
+    padding-bottom: 120px;
 }
 .work figcaption {
     position: absolute;
@@ -227,22 +231,17 @@ nav {
 
 .section-about{
     padding-top: 24px;
+    padding-bottom: 142px;
 }
 
 .img{
     background-color: #ededed;
     text-align: center;
-    padding-top: 104px;
-    height: 2000px;
-    padding-bottom: 104px;
+    padding-top: 120px;
+    height: 2200px;
     position: relative;
     z-index: 0;
     overflow: hidden;
-}
-
-.img img{
-    transition: 0.4s ease;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 15);
 }
 
 .img::after{
@@ -348,38 +347,41 @@ nav {
 }
 
 .ichigo{
-    padding-top: 104px;
     transform: scale(1.3) translateX(180px);
     width: 100%;
     max-width: 320px;
     height: auto;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.5);
 }
 .macha{
     max-width: 400px;
     width: 100%;
     height: auto;
     margin-left: auto;
-    transform: translateX(-100px)translateY(-80px);
+    transform: translateX(-100px)translateY(-72px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.5);
 }
 .travel{
     max-width: 600px;
     width: 100%;
     height: auto;
-    transform: translateX(314px)
+    transform: translateX(314px)translateY(56px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.5);
 }
 .sale{
     max-width: 600px;
     width: 100%;
     height: auto;
-    transform: translateX(100px)translateY(64px);
-
+    transform: translateX(100px)translateY(176px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.5);
 }
 .make{
     max-width: 630px;
     width: 100%;
     height: auto;
     margin-left: auto;
-    transform: translateX(-100px)translateY(128px)
+    transform: translateX(-100px)translateY(288px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 .img-hover {
     transition: 0.4s ease;
@@ -393,7 +395,7 @@ footer{
     background-color: #537791;
     text-align: center;
     line-height: 2.5;
-    height: 450px;
+    height: 800px;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -431,15 +433,19 @@ footer::before{
     100% { background-position: 0% 50%; }
 }
 
+.en-section{
+    margin-bottom: 16px;
+}
+
 .logo-en{
-    max-width: 150px;
+    max-width: 160px;
     width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
-    padding-top: 32px;
+    padding-top: 112px;
 }
 .end{
     list-style: none;
@@ -447,6 +453,10 @@ footer::before{
 .end a{
     color: #fff;
     text-decoration: none;
+}
+.en-buttom{
+    padding-top: 32px;
+    padding-bottom: 112px;
 }
 
 
@@ -618,7 +628,7 @@ footer::before{
     .make {
         transform: none !important;
         max-width: 80%;
-        margin-top: 40px;
+        margin-top: 80px;
         display: block !important;
         text-align: center !important;
         margin: 40px auto !important;
