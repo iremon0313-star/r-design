@@ -15,10 +15,51 @@ body{
 h1,h2,h3,p,figure{
     margin: 0;
 }
+.price{
+    background-color: #f7f6e7;
+}
+.price-main{
+    padding-top: 108px;
+    text-align: center;
+}
+.price-item{
+    transform: translateY(-16px);
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 108px;
+}
+
+.price-table {
+  width: 80%;
+  max-width: 650px;
+  margin: 40px auto; 
+  border-collapse: collapse;
+  background: #f0efef;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.price-table th {
+  background: #7d9db4;
+  padding: 14px;
+  text-align: left;
+  font-size: 18px;
+  color: #f0efef;
+}
+
+.price-table td {
+  padding: 14px;
+  border-bottom: 1px solid #c4d7e6;
+  font-size: 16px;
+  color: #537791;
+}
+
 
 .fadein{
     opacity: 0;
     transition: 2.0s ease;
+    height: auto;
 }
 .fadein.show{
     opacity: 1;
@@ -121,7 +162,7 @@ nav {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 1);
 }
 .MV-botm:active{
-     transform: translateY(2px);
+    transform: translateY(2px);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 .box{
@@ -174,6 +215,7 @@ nav {
     height: auto;
     display: block;
 }
+
 @media screen and (min-width: 769px) {
     .work:hover figcaption {
         opacity: 1;
@@ -218,7 +260,7 @@ nav {
     z-index: -1;
 }
 .img::before{
-     content: "";
+    content: "";
     position: absolute;
     width: 220px;
     height: 220px;
